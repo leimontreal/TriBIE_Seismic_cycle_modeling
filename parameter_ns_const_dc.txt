@@ -1,0 +1,15 @@
+-lms_1km_oblique_ns.dat  
+../modeling_data/lms_1km_oblique_ns_smooth_120/
+../data_green_para/green_para_oblique_1km_smooth/
+./restart/out0-lms_1km_oblique_ns.dat
+./profiles/Longmenshan_temperature_profile.dat
+5 31440 262 1 120  !Nab Nt_all Nt,Lratio,nprocs
+1 1 1 1 1         !Idin, Idout Iprofile, Iperb,Isnapshot
+286 34 60.00 100  ! xlength_stike,xlength_dip, dip, Vpl
+5.1           !hnucl(km)
+500.0 500.0 94.32         !sigmadiff, sefffix(bar), Lffix, (mm)
+100000.0         !tmax
+0.0 1000.0 5.0  !tslip_ave tslipend tslip_aveint
+100.0 10.0 1.585d-8            !tint_out tmin_out tint_coseimic (3.17d-8 is 1sec)
+5.0                 !vcos (mm/s)
+500 10 1 !nmv,nas,ncos
