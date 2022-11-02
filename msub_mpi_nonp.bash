@@ -6,4 +6,4 @@
 #PBS -V
 #PBS -N simulation_tri
 cd /home/zhanglei/code_lms_lei/Cedar_code/Modeling_ns_const_dc_oblique
-mpirun -n 120 ./3d_triangular_oblique_ns 
+mpirun -n 120 ./calc_*
